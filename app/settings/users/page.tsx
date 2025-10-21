@@ -16,7 +16,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import { Badge } from "@/components/ui/badge"
-import { Users, Plus, Edit, Trash2, Shield, Eye } from "lucide-react"
+import { Users, Plus, CreditCard as Edit, Trash2, Shield, Eye } from "lucide-react"
 
 const mockUsers = [
   { id: 1, name: "张三", email: "zhangsan@company.com", role: "管理员", status: "活跃", lastLogin: "2024-01-15 14:30" },

@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, BarChart3, Shield, Network, Search, Filter } from "lucide-react"
+import { ExternalLink, ChartBar as BarChart3, Shield, Network, Search, Filter } from "lucide-react"
 
 export default function LogsPage() {
   const [selectedDashboard, setSelectedDashboard] = useState("security")

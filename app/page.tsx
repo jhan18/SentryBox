@@ -4,21 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
-import {
-  Activity,
-  AlertTriangle,
-  CheckCircle,
-  Clock,
-  Cpu,
-  HardDrive,
-  MemoryStick,
-  Network,
-  Plus,
-  Scan,
-  Server,
-  Wifi,
-  XCircle,
-} from "lucide-react"
+import { Activity, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Clock, Cpu, HardDrive, MemoryStick, Network, Plus, Scan, Server, Wifi, Circle as XCircle } from "lucide-react"
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts"
 
 // 模拟数据

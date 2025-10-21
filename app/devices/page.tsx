@@ -7,20 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import {
-  Plus,
-  Search,
-  MoreHorizontal,
-  Edit,
-  Eye,
-  VolumeX,
-  ChevronLeft,
-  ChevronRight,
-  Server,
-  Router,
-  Globe,
-  Database,
-} from "lucide-react"
+import { Plus, Search, MoveHorizontal as MoreHorizontal, CreditCard as Edit, Eye, VolumeX, ChevronLeft, ChevronRight, Server, Router, Globe, Database } from "lucide-react"
 
 // 模拟设备数据
 const mockDevices = [

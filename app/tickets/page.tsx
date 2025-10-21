@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Plus, Edit, MessageSquare, Paperclip } from "lucide-react"
+import { Plus, CreditCard as Edit, MessageSquare, Paperclip } from "lucide-react"
 
 // 模拟工单数据
 const mockTickets = [
