@@ -83,8 +83,8 @@ export default function TicketsPage() {
   })
 
   return (
-    <div className="bg-background p-6">
-      <div className="mx-auto space-y-6">
+    <div className="bg-background min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
         <div className="flex">
           {/* 左侧过滤器 */}
           <div className="w-64 bg-card border-r p-4">
