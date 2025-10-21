@@ -16,8 +16,8 @@ export default function NotificationsPage() {
   const [maintenanceAlerts, setMaintenanceAlerts] = useState(false)
 
   return (
-    <div className="bg-background min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div className="bg-background w-[1280px] h-[800px] overflow-auto">
+      <div className="px-8 py-6 space-y-6">
         <div>
           <h1 className="text-3xl font-semibold text-foreground">通知设置</h1>
           <p className="text-muted-foreground mt-1">管理您的通知偏好和告警设置</p>

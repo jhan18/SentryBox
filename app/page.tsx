@@ -73,8 +73,8 @@ const getEventIcon = (type: string) => {
 
 export default function HomePage() {
   return (
-    <div className="bg-background min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div className="bg-background w-[1280px] h-[800px] overflow-auto">
+      <div className="px-8 py-6 space-y-6">
         {/* 页面标题 */}
         <div>
           <h1 className="text-3xl font-semibold text-foreground">总览仪表盘</h1>

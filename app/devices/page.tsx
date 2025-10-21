@@ -138,8 +138,8 @@ export default function DevicesPage() {
   }
 
   return (
-    <div className="bg-background min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="bg-background w-[1280px] h-[800px] overflow-auto">
+      <div className="px-8 py-6">
         <div className="space-y-6">
           <div className="flex">
             {/* 左侧过滤区 */}

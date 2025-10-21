@@ -18,8 +18,8 @@ export default function MonitoringConfigPage() {
   const [diskThreshold, setDiskThreshold] = useState([90])
 
   return (
-    <div className="bg-background min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div className="bg-background w-[1280px] h-[800px] overflow-auto">
+      <div className="px-8 py-6 space-y-6">
         <div>
           <h1 className="text-3xl font-semibold text-foreground">监控配置</h1>
           <p className="text-muted-foreground mt-2">配置系统监控参数和告警阈值</p>
